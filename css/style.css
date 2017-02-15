@@ -46,3 +46,15 @@ nav li a{
    height: 300px;
    width: 300px;
  }
+
+ footer{
+   display: flex;
+   background-color: #004d99;
+   font-size: 20px;
+   color: white;
+   height: 40px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+
+ }
