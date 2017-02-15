@@ -47,6 +47,19 @@ nav li a{
    width: 300px;
  }
 
+ .content{
+   display: inline-flex;
+   flex-wrap: wrap;
+ }
+
+ .container{
+   border: 1px solid #004d99;
+   height: 500px;
+   width: 500px;
+   margin: 100px 75px;
+   align-items: center;
+ }
+
  footer{
    display: flex;
    background-color: #004d99;
