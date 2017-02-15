@@ -1,9 +1,48 @@
 header{
   display: flex;
-  font-size: 50px;
+  font-size: 40px;
   font-family: cursive;
   background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
   color: white;
   height: 200px;
   align-items: center;
+  z-index: 1;
+  justify-content: space-between;
 }
+
+nav ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li{
+  display: inline;
+  border: solid;
+  border-width: 1px 1 px 0 1px;
+  margin: 0 5px 0 0;
+}
+
+nav li a{
+  padding: 0 10px;
+}
+
+#header li{
+  float: left;
+  border: 1px solid;
+  border-bottom-width: 0;
+  margin: 0 5px 0 0;
+}
+
+#content{
+  border: 1px solid;
+  clear: both;
+}
+
+
+.img-circle{
+   border-radius: 50%;
+   height: 300px;
+   width: 300px;
+ }
