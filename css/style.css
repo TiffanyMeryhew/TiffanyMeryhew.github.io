@@ -71,3 +71,10 @@ nav li a{
    justify-content: center;
 
  }
+ .social{
+   display: flex;
+   height: 35px;
+   width: 35px;
+   margin: 20px;
+   padding: 10px;
+ }
